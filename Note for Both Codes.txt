@@ -1,0 +1,14 @@
+CHANGES IN CODE
+
+Changes in Server
+-It counts the number of attempts of guessing the number and it shows corresponding marks like 
+Very Good if attempts are less than 5
+Good if attempts are less than 10 but greater than 6
+Fair if attempts are greater than 10
+
+
+Changes in Client
+-It adds a bot mechanism that letting it guess the random number given by the server.
+-If the 1st guess of the client bot is lower than the random number given by the server, then the value of the number provided by the client bot will be incremented by 1.
+
+-If the 1st guess of the client bot is higher than the random number given by the server, then the value of the number provided by the client bot will be decremented by 1.
